@@ -409,4 +409,38 @@ input:checked ~ .tab-content {
   top:-750px;
   left:710px ;
 }
-#success_message{ display: none;}
+/* Servicios */
+.banner3{
+  height:90vh;
+  background-image: url('../imagenes/PORTADA-PERRO.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.banner3 .container-3{
+  display: flex;
+  justify-content: end;
+  padding: 82px;
+}
+.title-3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 50px;
+}
+.container-text{
+  padding: 70px;
+}
+.container-text h2{
+  margin:30px;
+}
+.covid{
+  height: 400px;
+}
+.container-service .covid{
+  float: left;
+}
+
+.footer-copyright {
+  color:#fff;
+  background-color: #282828;
+}
