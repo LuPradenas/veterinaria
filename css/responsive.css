@@ -1,0 +1,158 @@
+
+/* ---------RESPONSE CONTACTO -------*/
+
+
+  
+  /* pantalla maximo 800px */
+  @media screen and (max-width:800px) and (max-width:900px) {
+    .contact{
+      width: 130%;
+    }
+    .card{
+      width: 450px;
+    }
+    .card-body {
+       width: 420px;
+      }
+    li a{
+      font-size:10px;
+  
+    }
+    .footer-copyright {
+      width:130%;
+    }
+    }
+  
+  /* pantalla maximo 480px */
+  @media screen and (max-width:480px) {
+   .contact{
+     width: 130%;
+   }
+    .card{
+      width: 440px;
+      margin:0;
+    }
+    .card-body {
+       width: 420px;
+      }
+    li a{
+      font-size:10px;
+  
+    }
+    .footer-copyright {
+      width:130%;
+    }
+    }
+    @media(min-width: 100px) {
+        .contact{
+            width: 100%;
+          }
+        .card{
+          width: 450px;
+          margin:0;
+        }
+        .card-body {
+           width: 420px;
+          }
+      li a{
+        font-size:10px;
+      }
+      
+      }
+
+    /* ---------RESPONSE SERVICIO -------*/
+    @media screen and (max-width:800px) and (max-width:900px) {
+        .banner3{
+            width:150%;
+        }
+        .covid{
+            height: 300px;
+        
+        }
+        .container-service{
+            width: 160%;
+           }
+           .container-text{
+               padding: 15px;
+           }
+        
+           .container-service .covid{
+            float: 0;
+          }
+             .footer-copyright {
+               width:150%;
+             }
+
+    }
+
+      /* pantalla maximo 480px */
+  @media screen and (max-width:480px) {
+   .covid{
+       height: 200px;
+   }
+   .container-service{
+    width: 550px;
+   }
+   .container-text{
+       padding: 15px;
+   }
+
+   .container-service .covid{
+    float: 0;
+  }
+     .footer-copyright {
+       width:150%;
+     }
+     }
+
+         /* ---------RESPONSE INICIO -------*/
+
+         @media screen and (max-width:800px) and (max-width:900px) {
+           .banner{
+               width:150%;
+           }
+           .service{
+            width:150%;
+           }
+           .telefono{
+            width:150%;
+           }
+           .trabajo{
+            width:150%;
+        }
+           .cita{
+            width:150%;
+        }
+            .bulldog{
+                display: none;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            .banner{
+                width:150%;
+            }
+            .service{
+                width:150%;
+            }
+            .telefono{
+                width:150%;
+               }
+            .trabajo{
+                width:150%;
+            }
+            .trabajo .card-body{
+                margin-left:70px;
+            }
+            .cita{
+                width:150%;
+            }
+            .cita .card{
+                margin-left:40px;
+            }
+            .bulldog{
+                display: none;
+            }
+          
+
+        }
