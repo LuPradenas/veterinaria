@@ -6,10 +6,11 @@
   /* pantalla maximo 800px */
   @media screen and (max-width:800px) and (max-width:900px) {
     .contact{
-      width: 130%;
+      height:160vh;
+      width:150%;
     }
     .card{
-      width: 450px;
+      margin-inline-start:200px;
     }
     .card-body {
        width: 420px;
@@ -26,11 +27,11 @@
   /* pantalla maximo 480px */
   @media screen and (max-width:480px) {
    .contact{
-     width: 130%;
+     height:150vh;
+     width:150%;
    }
-    .card{
+  .card{
       width: 440px;
-      margin:0;
     }
     .card-body {
        width: 420px;
@@ -44,9 +45,7 @@
     }
     }
     @media(min-width: 100px) {
-        .contact{
-            width: 100%;
-          }
+
         .card{
           width: 450px;
           margin:0;
